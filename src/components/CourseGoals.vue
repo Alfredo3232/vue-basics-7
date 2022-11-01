@@ -1,5 +1,9 @@
 <template>
-  <ul></ul>
+  <ul>
+    <li v-for="goal in goals" :key="goal">
+      {{ goal }}
+    </li>
+  </ul>
 </template>
 
 <script>
